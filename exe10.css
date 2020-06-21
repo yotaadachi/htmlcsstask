@@ -63,6 +63,9 @@ main {
 }
 
 @media screen and (max-width:768px) {
+	header {
+		margin-top: 50px;
+	}
 	main {
 		width: 90%;
 		margin: 50px auto;
@@ -75,4 +78,7 @@ main {
 	}
 	.step-box:last-child {
 		margin: 0 auto;
+	}
+	footer {
+		margin-bottom: 50px;
 	}
